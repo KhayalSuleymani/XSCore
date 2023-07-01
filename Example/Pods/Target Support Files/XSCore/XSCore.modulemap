@@ -1,0 +1,6 @@
+framework module XSCore {
+  umbrella header "XSCore-umbrella.h"
+
+  export *
+  module * { export * }
+}

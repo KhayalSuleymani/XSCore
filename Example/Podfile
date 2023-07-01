@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'XSCore_Example' do
+  pod 'XSCore', :path => '../'
+
+  target 'XSCore_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
