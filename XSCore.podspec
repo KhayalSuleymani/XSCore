@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "XSCore"
-  spec.version      = "0.1.3"
+  spec.version      = "0.1.4"
   spec.summary      = "A CocoaPods library written in Swift"
 
   # This description is used to generate tags and improve search results.
@@ -139,4 +139,8 @@ This CocoaPods library helps you perform calculation.
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
 
+  spec.dependency 'Alamofire'
+  spec.dependency 'SerializedSwift'
+  spec.dependency 'XCoordinator', '~> 2.0'
+  
 end
