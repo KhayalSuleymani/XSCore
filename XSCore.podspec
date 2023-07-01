@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "XSCore"
-  spec.version      = "0.1.1"
+  spec.version      = "0.1.2"
   spec.summary      = "A CocoaPods library written in Swift"
 
   # This description is used to generate tags and improve search results.
@@ -95,7 +95,7 @@ This CocoaPods library helps you perform calculation.
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "XSCore/**/*.{h,m,swift}"
+  spec.source_files  = "XSCore/Classes/**/*.{h,m,swift}"
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
