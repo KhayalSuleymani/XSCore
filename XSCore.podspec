@@ -142,5 +142,6 @@ This CocoaPods library helps you perform calculation.
   spec.dependency 'Alamofire'
   spec.dependency 'SerializedSwift'
   spec.dependency 'XCoordinator', '~> 2.0'
+  spec.dependency 'Static'
   
 end

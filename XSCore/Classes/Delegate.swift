@@ -8,6 +8,13 @@
 import Foundation
 
 open class Delegate: Responder {
+    
+    let window = Window()
+    
+    open var project: Projectable {
+        Project<AnyRoute>()
+    }
+    
     open var connection: Connector {
         Connector()
     }

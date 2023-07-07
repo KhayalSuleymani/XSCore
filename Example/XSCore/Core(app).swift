@@ -8,10 +8,17 @@
 
 import XSCore
 
-@main class XSCore: Delegate {
+@main class App: Delegate {
+    
+    override var project: Projectable {
+        Core(.zero)
+    }
+    
     override var connection: Connector {
         Connector(connections: [
-            
+            Firebase(),
+            Dynatrace(),
+            Localise(),
         ])
     }
 }

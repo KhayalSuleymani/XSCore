@@ -5,12 +5,17 @@
 //  Created by khayal on 30.06.23.
 //
 
-import Foundation
+import XCoordinator
 
 public protocol Connectable: ApplicationDelegate { }
 
-extension Delegate: Connectable {
-    public func application(_ application: Application, didFinishLaunchingWithOptions launchOptions: LaunchOptions? = nil) -> Bool {
-        connection.application(application, didFinishLaunchingWithOptions: launchOptions)
+@objc extension Delegate: Connectable {
+    open func application(_ application: Application, didFinishLaunchingWithOptions launchOptions: LaunchOptions? = nil) -> Bool {
+        
+        project.setRoot(for: window)
+        
+        _ = connection.application(application, didFinishLaunchingWithOptions: launchOptions)
+        
+        return true
     }
 }
