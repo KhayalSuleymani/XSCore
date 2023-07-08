@@ -16,7 +16,16 @@ extension Backend where T: Zero {
     }
 }
 
-open class Response<T>: Codable, Backendable {
+open class Object: Codable, Backendable {
+    
+    @Backend() public var description: String
+    
     required public init() { }
 }
 
+open class Response<T>: Codable, Backendable {
+    
+    @Backend() public var data: T?
+    
+    required public init() { }
+}

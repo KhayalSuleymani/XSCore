@@ -1,14 +1,18 @@
 PODS:
   - Alamofire (5.7.1)
+  - EachNavigationBar (1.17.0)
   - SerializedSwift (0.2.0)
   - Static (4.0.1)
+  - ViewAnimator (3.1.0)
   - XCoordinator (2.2.1):
     - XCoordinator/Core (= 2.2.1)
   - XCoordinator/Core (2.2.1)
   - XSCore (0.1.4):
     - Alamofire
+    - EachNavigationBar
     - SerializedSwift
     - Static
+    - ViewAnimator
     - XCoordinator (~> 2.0)
 
 DEPENDENCIES:
@@ -17,8 +21,10 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Alamofire
+    - EachNavigationBar
     - SerializedSwift
     - Static
+    - ViewAnimator
     - XCoordinator
 
 EXTERNAL SOURCES:
@@ -27,10 +33,12 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: 0123a34370cb170936ae79a8df46cc62b2edeb88
+  EachNavigationBar: 87430187ca1f898e6d9d8bb95c35e49749e5a0a2
   SerializedSwift: a823b7fb8915d894ad110696dafa4c5637f931ac
   Static: a4ef704ab38e966728ba2e588bcbae9e66c1845e
+  ViewAnimator: a9ceed80266e00fd435ec4fb99b2df64d580d0e4
   XCoordinator: 2cf9f72e10998b7a4a4bbeac3d07e071ea82fca3
-  XSCore: 50089446a436c805e098c6bca0859e402b2c021e
+  XSCore: 2e93b1f746564894185306a63fa40f602e5f2db1
 
 PODFILE CHECKSUM: 4c8000de7480277f0ae7205ce88997e1e013bc00
 

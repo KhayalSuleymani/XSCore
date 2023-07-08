@@ -22,7 +22,7 @@ open class Project<Route: Routable>: NavigationCoordinator<Route>, Projectable {
         rootViewController
     }
     
-    public convenience init(_ route: Route) {
+    public convenience init(_ route: Route = .zero) {
         self.init(initialRoute: route)
     }
     

@@ -9,22 +9,23 @@ import Static
 import Alamofire
 
 public protocol ViewItemType: AnyObject {
-    var sections: [Sec] { get }
+    var sections: [S] { get }
 }
 
 open class ViewItem<T>: NSObject, ViewItemType {
     
-    open var data: T?
+    open var data: T
     
     public init(_ data: T) {
         self.data = data
         super.init()
     }
     
-    open var sections: [Sec] {
-        []
+    open var sections: [S] {
+        .zero
     }
     
+    @discardableResult
     open func set (_ data: T) -> Self {
         self.data = data
         return self
@@ -32,5 +33,5 @@ open class ViewItem<T>: NSObject, ViewItemType {
 }
 
 public typealias Result<T> = AFResult<T>
-public typealias Sec = Section
-public typealias Row = Static.Row
+public typealias S = Section
+public typealias R = Row

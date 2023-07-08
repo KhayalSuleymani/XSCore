@@ -12,7 +12,6 @@
 		607FACE01AFB9204008FA782 /* XSCore.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* XSCore.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		F0435C612A5591C30074C534 /* Core(proj).swift in Sources */ = {isa = PBXBuildFile; fileRef = F0435C602A5591C30074C534 /* Core(proj).swift */; };
-		F0435C762A5598E40074C534 /* Core(ms).swift in Sources */ = {isa = PBXBuildFile; fileRef = F0435C752A5598E40074C534 /* Core(ms).swift */; };
 		F0435C7C2A55994A0074C534 /* Firebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0435C792A55994A0074C534 /* Firebase.swift */; };
 		F0435C7D2A55994A0074C534 /* Localise.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0435C7A2A55994A0074C534 /* Localise.swift */; };
 		F0435C7E2A55994A0074C534 /* Dynatrace.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0435C7B2A55994A0074C534 /* Dynatrace.swift */; };
@@ -21,6 +20,22 @@
 		F0435C852A5599EA0074C534 /* First(v).swift in Sources */ = {isa = PBXBuildFile; fileRef = F0435C842A5599EA0074C534 /* First(v).swift */; };
 		F0435C912A5610A70074C534 /* Auth(proj).swift in Sources */ = {isa = PBXBuildFile; fileRef = F0435C902A5610A70074C534 /* Auth(proj).swift */; };
 		F0435C932A5610CB0074C534 /* Home(proj).swift in Sources */ = {isa = PBXBuildFile; fileRef = F0435C922A5610CB0074C534 /* Home(proj).swift */; };
+		F0435CCB2A585EB40074C534 /* Home(eps).swift in Sources */ = {isa = PBXBuildFile; fileRef = F0435CCA2A585EB40074C534 /* Home(eps).swift */; };
+		F0435CCD2A585EDB0074C534 /* Home(ns).swift in Sources */ = {isa = PBXBuildFile; fileRef = F0435CCC2A585EDB0074C534 /* Home(ns).swift */; };
+		F0435CD02A58604A0074C534 /* Home(resp).swift in Sources */ = {isa = PBXBuildFile; fileRef = F0435CCF2A58604A0074C534 /* Home(resp).swift */; };
+		F0435CD52A5861BA0074C534 /* home.json in Resources */ = {isa = PBXBuildFile; fileRef = F0435CD42A5861BA0074C534 /* home.json */; };
+		F0435CD82A58634F0074C534 /* User(entity).swift in Sources */ = {isa = PBXBuildFile; fileRef = F0435CD72A58634F0074C534 /* User(entity).swift */; };
+		F0435CDA2A5863A60074C534 /* Account(entity).swift in Sources */ = {isa = PBXBuildFile; fileRef = F0435CD92A5863A60074C534 /* Account(entity).swift */; };
+		F0435CDC2A58640A0074C534 /* Transfer(entity).swift in Sources */ = {isa = PBXBuildFile; fileRef = F0435CDB2A58640A0074C534 /* Transfer(entity).swift */; };
+		F0435CDE2A5864240074C534 /* Currency(entity).swift in Sources */ = {isa = PBXBuildFile; fileRef = F0435CDD2A5864240074C534 /* Currency(entity).swift */; };
+		F0435CE12A5864530074C534 /* NumberFormatter(ext).swift in Sources */ = {isa = PBXBuildFile; fileRef = F0435CE02A5864530074C534 /* NumberFormatter(ext).swift */; };
+		F0435CE32A5864B40074C534 /* Transaction(entity).swift in Sources */ = {isa = PBXBuildFile; fileRef = F0435CE22A5864B40074C534 /* Transaction(entity).swift */; };
+		F0435CF32A5965D70074C534 /* Transaction(m).swift in Sources */ = {isa = PBXBuildFile; fileRef = F0435CF22A5965D70074C534 /* Transaction(m).swift */; };
+		F0435CF52A5966010074C534 /* Transaction(v).swift in Sources */ = {isa = PBXBuildFile; fileRef = F0435CF42A5966010074C534 /* Transaction(v).swift */; };
+		F0435CF72A59665D0074C534 /* Transaction(vm).swift in Sources */ = {isa = PBXBuildFile; fileRef = F0435CF62A59665D0074C534 /* Transaction(vm).swift */; };
+		F0435CF92A5966D20074C534 /* Account(m).swift in Sources */ = {isa = PBXBuildFile; fileRef = F0435CF82A5966D20074C534 /* Account(m).swift */; };
+		F0435CFB2A5966D80074C534 /* Account(v).swift in Sources */ = {isa = PBXBuildFile; fileRef = F0435CFA2A5966D80074C534 /* Account(v).swift */; };
+		F0435CFD2A5966DD0074C534 /* Account(vm).swift in Sources */ = {isa = PBXBuildFile; fileRef = F0435CFC2A5966DD0074C534 /* Account(vm).swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +60,6 @@
 		79C0F835DFF2156347857E50 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B6F3FCFA2EBF2440C5BC078E /* XSCore.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XSCore.podspec; path = ../XSCore.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F0435C602A5591C30074C534 /* Core(proj).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Core(proj).swift"; sourceTree = "<group>"; };
-		F0435C752A5598E40074C534 /* Core(ms).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Core(ms).swift"; sourceTree = "<group>"; };
 		F0435C792A55994A0074C534 /* Firebase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Firebase.swift; sourceTree = "<group>"; };
 		F0435C7A2A55994A0074C534 /* Localise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localise.swift; sourceTree = "<group>"; };
 		F0435C7B2A55994A0074C534 /* Dynatrace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dynatrace.swift; sourceTree = "<group>"; };
@@ -55,6 +69,22 @@
 		F0435C902A5610A70074C534 /* Auth(proj).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Auth(proj).swift"; sourceTree = "<group>"; };
 		F0435C922A5610CB0074C534 /* Home(proj).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Home(proj).swift"; sourceTree = "<group>"; };
 		F0435CB02A57D3CF0074C534 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/XSCore.xib; sourceTree = "<group>"; };
+		F0435CCA2A585EB40074C534 /* Home(eps).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Home(eps).swift"; sourceTree = "<group>"; };
+		F0435CCC2A585EDB0074C534 /* Home(ns).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Home(ns).swift"; sourceTree = "<group>"; };
+		F0435CCF2A58604A0074C534 /* Home(resp).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Home(resp).swift"; sourceTree = "<group>"; };
+		F0435CD42A5861BA0074C534 /* home.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = home.json; sourceTree = "<group>"; };
+		F0435CD72A58634F0074C534 /* User(entity).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User(entity).swift"; sourceTree = "<group>"; };
+		F0435CD92A5863A60074C534 /* Account(entity).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Account(entity).swift"; sourceTree = "<group>"; };
+		F0435CDB2A58640A0074C534 /* Transfer(entity).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Transfer(entity).swift"; sourceTree = "<group>"; };
+		F0435CDD2A5864240074C534 /* Currency(entity).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Currency(entity).swift"; sourceTree = "<group>"; };
+		F0435CE02A5864530074C534 /* NumberFormatter(ext).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NumberFormatter(ext).swift"; sourceTree = "<group>"; };
+		F0435CE22A5864B40074C534 /* Transaction(entity).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Transaction(entity).swift"; sourceTree = "<group>"; };
+		F0435CF22A5965D70074C534 /* Transaction(m).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Transaction(m).swift"; sourceTree = "<group>"; };
+		F0435CF42A5966010074C534 /* Transaction(v).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Transaction(v).swift"; sourceTree = "<group>"; };
+		F0435CF62A59665D0074C534 /* Transaction(vm).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Transaction(vm).swift"; sourceTree = "<group>"; };
+		F0435CF82A5966D20074C534 /* Account(m).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Account(m).swift"; sourceTree = "<group>"; };
+		F0435CFA2A5966D80074C534 /* Account(v).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Account(v).swift"; sourceTree = "<group>"; };
+		F0435CFC2A5966DD0074C534 /* Account(vm).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Account(vm).swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,13 +135,13 @@
 		607FACD21AFB9204008FA782 /* XSCore */ = {
 			isa = PBXGroup;
 			children = (
-				F0435C7F2A5599BB0074C534 /* Screens */,
-				F0435C782A55994A0074C534 /* Connections */,
 				607FACD51AFB9204008FA782 /* Core(app).swift */,
-				F0435C922A5610CB0074C534 /* Home(proj).swift */,
 				F0435C602A5591C30074C534 /* Core(proj).swift */,
-				F0435C902A5610A70074C534 /* Auth(proj).swift */,
-				F0435C752A5598E40074C534 /* Core(ms).swift */,
+				F0435C7F2A5599BB0074C534 /* Screens */,
+				F0435CDF2A5864490074C534 /* Extensions */,
+				F0435CC92A585E9E0074C534 /* Networking */,
+				F0435C782A55994A0074C534 /* Connections */,
+				F0435CEC2A5951B00074C534 /* Projs */,
 				607FACDC1AFB9204008FA782 /* XSCore.xcassets */,
 				607FACDE1AFB9204008FA782 /* XSCore.xib */,
 				607FACD41AFB9204008FA782 /* Info.plist */,
@@ -159,11 +189,114 @@
 		F0435C7F2A5599BB0074C534 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				F0435CF12A5963B10074C534 /* Transaction(v) */,
+				F0435CF02A5963AD0074C534 /* Account(v) */,
+				F0435CEF2A5963A10074C534 /* Initial(v) */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		F0435CC92A585E9E0074C534 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				F0435CD62A5863420074C534 /* Entities */,
+				F0435CCE2A58603C0074C534 /* Responses */,
+				F0435CD12A58608C0074C534 /* EndPoints */,
+				F0435CD22A5860970074C534 /* Services */,
+				F0435CD32A58619F0074C534 /* JSONs */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		F0435CCE2A58603C0074C534 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				F0435CCF2A58604A0074C534 /* Home(resp).swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		F0435CD12A58608C0074C534 /* EndPoints */ = {
+			isa = PBXGroup;
+			children = (
+				F0435CCA2A585EB40074C534 /* Home(eps).swift */,
+			);
+			path = EndPoints;
+			sourceTree = "<group>";
+		};
+		F0435CD22A5860970074C534 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F0435CCC2A585EDB0074C534 /* Home(ns).swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F0435CD32A58619F0074C534 /* JSONs */ = {
+			isa = PBXGroup;
+			children = (
+				F0435CD42A5861BA0074C534 /* home.json */,
+			);
+			path = JSONs;
+			sourceTree = "<group>";
+		};
+		F0435CD62A5863420074C534 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				F0435CDB2A58640A0074C534 /* Transfer(entity).swift */,
+				F0435CDD2A5864240074C534 /* Currency(entity).swift */,
+				F0435CE22A5864B40074C534 /* Transaction(entity).swift */,
+				F0435CD92A5863A60074C534 /* Account(entity).swift */,
+				F0435CD72A58634F0074C534 /* User(entity).swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		F0435CDF2A5864490074C534 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F0435CE02A5864530074C534 /* NumberFormatter(ext).swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F0435CEC2A5951B00074C534 /* Projs */ = {
+			isa = PBXGroup;
+			children = (
+				F0435C902A5610A70074C534 /* Auth(proj).swift */,
+				F0435C922A5610CB0074C534 /* Home(proj).swift */,
+			);
+			path = Projs;
+			sourceTree = "<group>";
+		};
+		F0435CEF2A5963A10074C534 /* Initial(v) */ = {
+			isa = PBXGroup;
+			children = (
 				F0435C802A5599DE0074C534 /* First(m).swift */,
 				F0435C842A5599EA0074C534 /* First(v).swift */,
 				F0435C822A5599E60074C534 /* First(vm).swift */,
 			);
-			path = Screens;
+			path = "Initial(v)";
+			sourceTree = "<group>";
+		};
+		F0435CF02A5963AD0074C534 /* Account(v) */ = {
+			isa = PBXGroup;
+			children = (
+				F0435CF82A5966D20074C534 /* Account(m).swift */,
+				F0435CFA2A5966D80074C534 /* Account(v).swift */,
+				F0435CFC2A5966DD0074C534 /* Account(vm).swift */,
+			);
+			path = "Account(v)";
+			sourceTree = "<group>";
+		};
+		F0435CF12A5963B10074C534 /* Transaction(v) */ = {
+			isa = PBXGroup;
+			children = (
+				F0435CF22A5965D70074C534 /* Transaction(m).swift */,
+				F0435CF42A5966010074C534 /* Transaction(v).swift */,
+				F0435CF62A59665D0074C534 /* Transaction(vm).swift */,
+			);
+			path = "Transaction(v)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +384,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACE01AFB9204008FA782 /* XSCore.xib in Resources */,
+				F0435CD52A5861BA0074C534 /* home.json in Resources */,
 				607FACDD1AFB9204008FA782 /* XSCore.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,17 +403,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0435CCB2A585EB40074C534 /* Home(eps).swift in Sources */,
+				F0435CDA2A5863A60074C534 /* Account(entity).swift in Sources */,
 				F0435C612A5591C30074C534 /* Core(proj).swift in Sources */,
+				F0435CF32A5965D70074C534 /* Transaction(m).swift in Sources */,
 				F0435C912A5610A70074C534 /* Auth(proj).swift in Sources */,
-				F0435C762A5598E40074C534 /* Core(ms).swift in Sources */,
+				F0435CF52A5966010074C534 /* Transaction(v).swift in Sources */,
+				F0435CDC2A58640A0074C534 /* Transfer(entity).swift in Sources */,
 				F0435C812A5599DE0074C534 /* First(m).swift in Sources */,
+				F0435CD02A58604A0074C534 /* Home(resp).swift in Sources */,
+				F0435CCD2A585EDB0074C534 /* Home(ns).swift in Sources */,
+				F0435CFD2A5966DD0074C534 /* Account(vm).swift in Sources */,
 				F0435C7C2A55994A0074C534 /* Firebase.swift in Sources */,
 				F0435C7E2A55994A0074C534 /* Dynatrace.swift in Sources */,
 				607FACD61AFB9204008FA782 /* Core(app).swift in Sources */,
+				F0435CE32A5864B40074C534 /* Transaction(entity).swift in Sources */,
 				F0435C852A5599EA0074C534 /* First(v).swift in Sources */,
 				F0435C932A5610CB0074C534 /* Home(proj).swift in Sources */,
+				F0435CDE2A5864240074C534 /* Currency(entity).swift in Sources */,
+				F0435CE12A5864530074C534 /* NumberFormatter(ext).swift in Sources */,
 				F0435C832A5599E60074C534 /* First(vm).swift in Sources */,
 				F0435C7D2A55994A0074C534 /* Localise.swift in Sources */,
+				F0435CF92A5966D20074C534 /* Account(m).swift in Sources */,
+				F0435CF72A59665D0074C534 /* Transaction(vm).swift in Sources */,
+				F0435CD82A58634F0074C534 /* User(entity).swift in Sources */,
+				F0435CFB2A5966D80074C534 /* Account(v).swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

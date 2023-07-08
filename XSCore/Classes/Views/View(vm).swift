@@ -9,7 +9,7 @@ import Foundation
 
 public protocol Stateable {
     associatedtype ViewState
-    func change (s: ViewState) -> Self
+    func change (state: ViewState) -> Self
 }
 
 public enum State<D> {
@@ -28,5 +28,6 @@ open class ViewModel<T>: NSObject, Stateable {
         super.init()
     }
     
-    @discardableResult open func change (s: (State<T>)->()) -> Self { self }
+    @discardableResult
+    open func change (state: @escaping (State<T>)->()) -> Self { self }
 }

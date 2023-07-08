@@ -1,0 +1,422 @@
+{
+    "data": {
+        "userInfo": {
+            "id":142,
+            "uuid":"blablablalal",
+            "pin":"1A2A3DF",
+            "username":"+994505211203",
+            "firstName":"NAZIM",
+            "lastName":"IBRAHIMOV",
+            "patronymic":"SAFARALI",
+            "email":"nazimibr@mail.ru",
+            "mobileNumber":"+994505211203",
+            "customers":[
+               {
+                  "customerId":"9330099",
+                  "name":"FULLNAME9330099",
+                  "isDefault": true,
+               },
+            ],
+            "kobilUsername":null,
+            "asanId":"120392",
+            "migrated":true
+         },
+        "accounts": [
+            {
+                "name": "Test Testov Test oglu",
+                "accountBranch": {
+                    "branchNumber": "204",
+                    "branchName": "MERKEZI FILIAL"
+                },
+                "blockedAmount": 0,
+                "currentBalance": 12.33,
+                "availableBalance": null,
+                "accountStatus": null,
+                "bankCode": "805722",
+                "currency": "AZN",
+                "accountNo": "40060019441111111204",
+                "iban": "AZ49IBAZ40060019441111111204",
+                "customerNo": "1111111",
+                "accountCategory": "COMPANY",
+                "accountClass": "40160",
+                "accountClassDesc": "Ticarət və xidmət sektor.özəl müəs.C/H",
+                "tin": null,
+                "creditIsAllowed": true,
+                "debitIsAllowed": true,
+                "disposal": false,
+                "blockers": [
+                    "BLOCKED",
+                    "FROZEN",
+                    "STOPPED_PAY",
+                    "NO_DEBIT",
+                    "NO_CREDIT"
+                ],
+                "corporateCardAccount": null,
+                "status": null,
+                "accountOpenDate": null
+            },
+            {
+                "name": "Test Testov Test oglu",
+                "accountBranch": {
+                    "branchNumber": "204",
+                    "branchName": "MERKEZI FILIAL"
+                },
+                "blockedAmount": 0,
+                "currentBalance": 11.33,
+                "availableBalance": null,
+                "accountStatus": null,
+                "bankCode": "805722",
+                "currency": "EUR",
+                "accountNo": "40060019441111111204",
+                "iban": "AZ49IBAZ40060019441111111204",
+                "customerNo": "1111111",
+                "accountCategory": "COMPANY",
+                "accountClass": "40160",
+                "accountClassDesc": "Ticarət və xidmət sektor.özəl müəs.C/H",
+                "tin": null,
+                "creditIsAllowed": true,
+                "debitIsAllowed": true,
+                "disposal": false,
+                "blockers": [
+                    "BLOCKED",
+                    "FROZEN",
+                    "STOPPED_PAY",
+                    "NO_DEBIT",
+                    "NO_CREDIT"
+                ],
+                "corporateCardAccount": null,
+                "status": null,
+                "accountOpenDate": null
+            },
+            {
+                "name": "Test Testov Test oglu",
+                "accountBranch": {
+                    "branchNumber": "204",
+                    "branchName": "MERKEZI FILIAL"
+                },
+                "blockedAmount": 0,
+                "currentBalance": 9.33,
+                "availableBalance": null,
+                "accountStatus": null,
+                "bankCode": "805722",
+                "currency": "USD",
+                "accountNo": "40060019441111111204",
+                "iban": "AZ49IBAZ40060019441111111204",
+                "customerNo": "1111111",
+                "accountCategory": "COMPANY",
+                "accountClass": "40160",
+                "accountClassDesc": "Ticarət və xidmət sektor.özəl müəs.C/H",
+                "tin": null,
+                "creditIsAllowed": true,
+                "debitIsAllowed": true,
+                "disposal": false,
+                "blockers": [
+                    "BLOCKED",
+                    "FROZEN",
+                    "STOPPED_PAY",
+                    "NO_DEBIT",
+                    "NO_CREDIT"
+                ],
+                "corporateCardAccount": null,
+                "status": null,
+                "accountOpenDate": null
+            },
+            {
+                "name": "Test Testov Test oglu",
+                "accountBranch": {
+                    "branchNumber": "204",
+                    "branchName": "MERKEZI FILIAL"
+                },
+                "blockedAmount": 0,
+                "currentBalance": 10.33,
+                "availableBalance": null,
+                "accountStatus": null,
+                "bankCode": "805722",
+                "currency": "GBP",
+                "accountNo": "40060019441111111204",
+                "iban": "AZ49IBAZ40060019441111111204",
+                "customerNo": "1111111",
+                "accountCategory": "COMPANY",
+                "accountClass": "40160",
+                "accountClassDesc": "Ticarət və xidmət sektor.özəl müəs.C/H",
+                "tin": null,
+                "creditIsAllowed": true,
+                "debitIsAllowed": true,
+                "disposal": false,
+                "blockers": [
+                    "BLOCKED",
+                    "FROZEN",
+                    "STOPPED_PAY",
+                    "NO_DEBIT",
+                    "NO_CREDIT"
+                ],
+                "corporateCardAccount": true,
+                "status": null,
+                "accountOpenDate": null
+            },
+            {
+                "name": "Test Testov Test oglu",
+                "accountBranch": {
+                    "branchNumber": "204",
+                    "branchName": "MERKEZI FILIAL"
+                },
+                "blockedAmount": 0,
+                "currentBalance": 10.33,
+                "availableBalance": null,
+                "accountStatus": null,
+                "bankCode": "805722",
+                "currency": "AZN",
+                "accountNo": "40060019441111111204",
+                "iban": "AZ49IBAZ40060019441111111204",
+                "customerNo": "1111111",
+                "accountCategory": "COMPANY",
+                "accountClass": "40160",
+                "accountClassDesc": "Ticarət və xidmət sektor.özəl müəs.C/H",
+                "tin": null,
+                "creditIsAllowed": true,
+                "debitIsAllowed": true,
+                "disposal": false,
+                "blockers": [
+                    "BLOCKED",
+                    "FROZEN",
+                    "STOPPED_PAY",
+                    "NO_DEBIT",
+                    "NO_CREDIT"
+                ],
+                "corporateCardAccount": null,
+                "status": null,
+                "accountOpenDate": null
+            },
+            {
+                "name": "Test Testov Test oglu",
+                "accountBranch": {
+                    "branchNumber": "204",
+                    "branchName": "MERKEZI FILIAL"
+                },
+                "blockedAmount": 0,
+                "currentBalance": 19.33,
+                "availableBalance": null,
+                "accountStatus": null,
+                "bankCode": "805722",
+                "currency": "USD",
+                "accountNo": "40060019441111111204",
+                "iban": "AZ49IBAZ40060019441111111204",
+                "customerNo": "1111111",
+                "accountCategory": "COMPANY",
+                "accountClass": "40160",
+                "accountClassDesc": "Ticarət və xidmət sektor.özəl müəs.C/H",
+                "tin": null,
+                "creditIsAllowed": true,
+                "debitIsAllowed": true,
+                "disposal": false,
+                "blockers": [
+                    "BLOCKED",
+                    "FROZEN",
+                    "STOPPED_PAY",
+                    "NO_DEBIT",
+                    "NO_CREDIT"
+                ],
+                "corporateCardAccount": null,
+                "status": null,
+                "accountOpenDate": null
+            },
+            {
+                "name": "Test Testov Test oglu",
+                "accountBranch": {
+                    "branchNumber": "204",
+                    "branchName": "MERKEZI FILIAL"
+                },
+                "blockedAmount": 0,
+                "currentBalance": 10.33,
+                "availableBalance": null,
+                "accountStatus": null,
+                "bankCode": "805722",
+                "currency": "EUR",
+                "accountNo": "40060019441111111204",
+                "iban": "AZ49IBAZ40060019441111111204",
+                "customerNo": "1111111",
+                "accountCategory": "COMPANY",
+                "accountClass": "40160",
+                "accountClassDesc": "Ticarət və xidmət sektor.özəl müəs.C/H",
+                "tin": null,
+                "creditIsAllowed": true,
+                "debitIsAllowed": true,
+                "disposal": false,
+                "blockers": [
+                    "BLOCKED",
+                    "FROZEN",
+                    "STOPPED_PAY",
+                    "NO_DEBIT",
+                    "NO_CREDIT"
+                ],
+                "corporateCardAccount": null,
+                "status": null,
+                "accountOpenDate": null
+            },
+            {
+                "name": "Test Testov Test oglu",
+                "accountBranch": {
+                    "branchNumber": "204",
+                    "branchName": "MERKEZI FILIAL"
+                },
+                "blockedAmount": 0,
+                "currentBalance": 10.33,
+                "availableBalance": null,
+                "accountStatus": null,
+                "bankCode": "805722",
+                "currency": "GBP",
+                "accountNo": "40060019441111111204",
+                "iban": "AZ49IBAZ40060019441111111204",
+                "customerNo": "1111111",
+                "accountCategory": "COMPANY",
+                "accountClass": "40160",
+                "accountClassDesc": "Ticarət və xidmət sektor.özəl müəs.C/H",
+                "tin": null,
+                "creditIsAllowed": true,
+                "debitIsAllowed": true,
+                "disposal": false,
+                "blockers": [
+                    "BLOCKED",
+                    "FROZEN",
+                    "STOPPED_PAY",
+                    "NO_DEBIT",
+                    "NO_CREDIT"
+                ],
+                "corporateCardAccount": null,
+                "status": null,
+                "accountOpenDate": null
+            }
+        ],
+        "pendings": [
+            {
+                "paymentId": 1,
+                "status": "PENDING_APPROVAL",
+                "paymentType": "OWN_ACCOUNTS",
+                "amount": 50.5,
+                "currency": null,
+                "referenceId": "1",
+                "beneficiaryName": "Test LLC",
+                "description": null,
+                "user": {
+                    "id": 1,
+                    "firstName": "Test",
+                    "lastName": "Testov",
+                    "patronymic": null
+                },
+                "authType": "BASIC",
+                "advanced": null,
+                "basic": {
+                    "otpSign": false,
+                    "authorizeUsers": [
+                        {
+                            "id": 1,
+                            "firstName": "Test",
+                            "lastName": "Testov",
+                            "patronymic": null
+                        }
+                    ],
+                    "approvedBy": null,
+                    "approvedAt": null
+                },
+                "createdAt": "2021-04-19T16:30:00",
+                "updatedAt": "2021-04-19T16:30:00"
+            }
+        ],
+        "totalBalances": [
+            {
+                "currency": "AZN",
+                "balance": 105000.66
+            },
+            {
+                "currency": "USD",
+                "balance": 305333.88
+            },
+            
+            {
+                "currency": "EUR",
+                "balance": 105000.66
+            },
+            {
+                "currency": "RUB",
+                "balance": 8805333.77
+            },
+    
+        ],
+        
+        "transactions": [
+            {
+                "referenceNumber": "204INTL000001033",
+                "description": "TEST1",
+                "transactionType": "DEBIT",
+                "paidAt": "10.05.2022",
+                "currency": "AZN",
+                "counterParty": "33801019000000626204  IBAZTEST",
+                "drAmount": 1342.33,
+                "crAmount": 0
+            },
+            {
+                "referenceNumber": "105JRNE000020829",
+                "description": "Kassa ABB",
+                "transactionType": "CREDIT",
+                "paidAt": "12.05.2022",
+                "currency": "AZN",
+                "counterParty": "CARDS DEPARTMENT 3, Z.TAGIYEV STR. BAKU AZERBAIJAN AN 001081450950CAR V 990000213",
+                "drAmount": 0,
+                "crAmount": 1342.60
+            },
+            {
+                "referenceNumber": "204INTL000001033",
+                "description": "TEST2",
+                "transactionType": "DEBIT",
+                "paidAt": "10.05.2022",
+                "currency": "AZN",
+                "counterParty": "33801019000000626204  IBAZTEST",
+                "drAmount": 44442.70,
+                "crAmount": 0
+            },
+            {
+                "referenceNumber": "105JRNE000020829",
+                "description": "Kassa ABB",
+                "transactionType": "CREDIT",
+                "paidAt": "12.05.2022",
+                "currency": "AZN",
+                "counterParty": "CARDS DEPARTMENT 3, Z.TAGIYEV STR. BAKU AZERBAIJAN AN 001081450950CAR V 990000213",
+                "drAmount": 0,
+                "crAmount": 1342
+            },
+            {
+                "referenceNumber": "105JRNE000020829",
+                "description": "Kassa ABB",
+                "transactionType": "CREDIT",
+                "paidAt": "12.05.2022",
+                "currency": "AZN",
+                "counterParty": "CARDS DEPARTMENT 3, Z.TAGIYEV STR. BAKU AZERBAIJAN AN 001081450950CAR V 990000213",
+                "drAmount": 0,
+                "crAmount": 5342.00
+            },
+            {
+                "referenceNumber": "105JRNE000020829",
+                "description": "Kassa ABB",
+                "transactionType": "CREDIT",
+                "paidAt": "12.05.2022",
+                "currency": "AZN",
+                "counterParty": "CARDS DEPARTMENT 3, Z.TAGIYEV STR. BAKU AZERBAIJAN AN 001081450950CAR V 990000213",
+                "drAmount": 0,
+                "crAmount": 1342.00
+            },
+            {
+                "referenceNumber": "105JRNE000020829",
+                "description": "Kassa ABB",
+                "transactionType": "CREDIT",
+                "paidAt": "12.05.2022",
+                "currency": "AZN",
+                "counterParty": "CARDS DEPARTMENT 3, Z.TAGIYEV STR. BAKU AZERBAIJAN AN 001081450950CAR V 990000213",
+                "drAmount": 0,
+                "crAmount": 1342.00
+            },
+        ]
+    },
+    
+    "status": "OK"
+}
+

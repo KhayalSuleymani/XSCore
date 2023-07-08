@@ -143,5 +143,7 @@ This CocoaPods library helps you perform calculation.
   spec.dependency 'SerializedSwift'
   spec.dependency 'XCoordinator', '~> 2.0'
   spec.dependency 'Static'
+  spec.dependency 'ViewAnimator'
+  spec.dependency 'EachNavigationBar'
   
 end

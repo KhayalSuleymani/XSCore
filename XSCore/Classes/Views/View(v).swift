@@ -7,6 +7,7 @@
 
 import Static
 import Alamofire
+import ViewAnimator
 
 open class ViewController<ItemType: ViewItemType>: TableViewController, TableViewDelegate, Stateable {
     
@@ -26,24 +27,33 @@ open class ViewController<ItemType: ViewItemType>: TableViewController, TableVie
     }
     
     @discardableResult
-    open func change (s: State<ItemType>) -> Self {
-        switch s {
-        case .s(let s):
+    open func change (state: State<ItemType>) -> Self {
+        switch state {
+        case let .s(s):
             switch s {
             case let .success(m):
-                dataSource.sections = m.sections
-                stop()
-            case let .failure(error):
-                print(error)
-                stop()
+                update(m)
+                    .animate ([
+                        .zoom(scale: 0.9),
+                        .from(direction: .top, offset: 50),
+                    ])
+                    .stop()
+            case let .failure(e):
+                show(e)
+                    .stop()
             }
         case let.l(m):
-            guard let m = m else { return self }
-            dataSource.sections = m.sections
-            start()
-        case _ :
-            break
+            update(m)
+                .start()
+        case _ : break
         }
+        return self
+    }
+    
+    @discardableResult
+    open func animate (_ animations: [AnimationType]) -> Self {
+        UIView.animate(views: tableView.visibleCells,
+                       animations: animations)
         return self
     }
     
@@ -60,6 +70,19 @@ open class ViewController<ItemType: ViewItemType>: TableViewController, TableVie
     @discardableResult
     open func onLoad (_ didLoad: @escaping Event) -> Self {
         self.didLoad = didLoad
+        return self
+    }
+    
+    @discardableResult
+    open func show(_ error: AFError) -> Self {
+        print(error)
+        return self
+    }
+    
+    @discardableResult
+    open func update (_ m: ItemType?) -> Self {
+        guard let m = m else { return self }
+        dataSource.sections = m.sections
         return self
     }
 }

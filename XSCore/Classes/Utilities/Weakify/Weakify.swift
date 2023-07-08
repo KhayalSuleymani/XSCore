@@ -14,7 +14,7 @@
 /// - Parameters:
 ///   - context1: Any context object to weakify and weakify.
 ///   - closure: Closure to execute instead of the original one.
-public func weakify<Context1: AnyObject>(weak context1: Context1?, closure: @escaping(Context1) -> Void) -> () -> Void {
+public func weaks<Context1: AnyObject>(weak context1: Context1?, _ closure: @escaping(Context1) -> Void) -> () -> Void {
     return { [weak context1] in
         guard let strongContext1 = context1 else { return }
         closure(strongContext1)
@@ -26,7 +26,7 @@ public func weakify<Context1: AnyObject>(weak context1: Context1?, closure: @esc
 /// - Parameters:
 ///   - context1: Any context object to weakify and weakify.
 ///   - closure: Closure to execute instead of the original one.
-public func weakify<Context1: AnyObject, Argument1>(weak context1: Context1?, closure: @escaping(Context1, Argument1) -> Void) -> (Argument1) -> Void {
+public func weaks<Context1: AnyObject, Argument1>(weak context1: Context1?, _ closure: @escaping(Context1, Argument1) -> Void) -> (Argument1) -> Void {
     return { [weak context1] argument1 in
         guard let strongContext1 = context1 else { return }
         closure(strongContext1, argument1)

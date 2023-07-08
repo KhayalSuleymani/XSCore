@@ -9,26 +9,22 @@
 import XSCore
 
 enum HomeRoute: Routable {
-    
-    case first
-    
+    case first(HomeDTO)
     static var zero: HomeRoute {
-        .first
+        .first(.init())
     }
 }
 
 class Home: Project<HomeRoute> {
     override func prepareTransition(for route: HomeRoute) -> NavigationTransition {
         switch route {
-        case .first:
-            let m  = FirstViewItem()
+        case let .first(d):
+            let m  = FirstViewItem(d)
             let v  = FirstView()
             let vm = FirstViewModel(m)
-            v.onLoad { v in
-                vm.change { s in
-                    v.change(s:s)
-                }
-            }
+            vm.change(state: {
+                v.change(state: $0)
+            })
             return .present(v)
         }
     }

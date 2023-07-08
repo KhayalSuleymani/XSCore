@@ -8,10 +8,12 @@
 
 import XSCore
 
+// MARK: APP DELEGATE
+
 @main class App: Delegate {
     
     override var project: Projectable {
-        Core(.zero)
+        Core()
     }
     
     override var connection: Connector {
